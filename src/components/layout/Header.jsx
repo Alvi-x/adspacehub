@@ -40,6 +40,16 @@ const Header = () => {
             >
               Browse Spaces
             </Link>
+            <Link 
+              to="/create-listing" 
+              className={`inline-flex items-center px-1 pt-1 text-sm font-medium ${
+                location.pathname === '/create-listing' 
+                  ? 'text-primary-500 border-b-2 border-primary-500' 
+                  : 'text-gray-500 hover:text-gray-700'
+              }`}
+            >
+              List A Space
+            </Link>
           </nav>
 
           {/* Actions */}

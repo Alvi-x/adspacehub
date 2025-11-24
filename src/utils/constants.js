@@ -54,4 +54,4 @@ export const CATEGORIES = {
 }
 
 export const PRICE_UNITS = ['day', 'week', 'month', 'campaign']
-export const CURRENCIES = ['USD', 'EUR', 'GBP', 'CAD', 'AUD']
+export const CURRENCIES = ['ZAR','USD', 'EUR', 'GBP', 'CAD', 'AUD']

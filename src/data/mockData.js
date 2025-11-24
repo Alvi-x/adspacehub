@@ -161,14 +161,14 @@ export const featuredCategories = [
     id: 'retail-consumer',
     name: 'Retail & Consumer',
     description: 'Store windows, malls, and shopping areas',
-    images: ['/icons/retail.png'],
+    images: ['/escalators.gif'],
     count: 28
   },
   {
     id: 'business-professional',
     name: 'Business & Professional',
     description: 'Office spaces and professional environments',
-    images: ['/icons/business.png'],
+    images: ['/cart.jpg'],
     count: 19
   }
 ]

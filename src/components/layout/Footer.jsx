@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="bg-gray-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -39,9 +40,10 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        
-        <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 AdSpaceHub. All rights reserved.</p>
+        <div className="border-t border-gray-900 pt-8 text-center text-gray-400 text-sm">
+          <hr className="my-10 border-gray-700" />
+          <p>&copy; {currentYear} AdSpaceHub. All rights reserved.</p>
+          <p>Designed with ❤ by <a href="https://xitdevs.co.za">XITDevs.co.za</a></p>
         </div>
       </div>
     </footer>

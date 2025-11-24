@@ -31,7 +31,7 @@ const CreateListing = () => {
     // Step 4: Pricing
     priceAmount: '',
     priceUnit: 'day',
-    currency: 'USD',
+    currency: 'ZAR',
     
     // Step 5: Owner Info
     ownerName: '',
@@ -477,7 +477,7 @@ const CreateListing = () => {
               {currentStep < 5 ? (
                 <Button
                   type="button"
-                  variant="primary"
+                  variant="outline"
                   onClick={nextStep}
                 >
                   Next
@@ -486,7 +486,8 @@ const CreateListing = () => {
               ) : (
                 <Button
                   type="submit"
-                  variant="primary"
+                  variant="outline"
+                  className="bg-primary-500 text-black hover:bg-primary-600 focus:ring-primary-500"
                 >
                   Create Listing
                 </Button>
